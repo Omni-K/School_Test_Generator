@@ -8,6 +8,9 @@ def get_different_numbers(n):
     return x[0:n]
 
 
+def make_docx(n):
+    pass
+
 doc = DocxTemplate("template.docx")
 
 dec_to_bin = get_different_numbers(3)
